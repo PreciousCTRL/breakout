@@ -1,0 +1,173 @@
+body{
+    background-color: #586994;
+    color:white
+}
+
+h1{
+    font-family: Poppins;
+    font-size: 40px;
+}
+
+#xxl{
+    display: none;
+}
+#xsm{
+    display: block;
+}
+#sm{
+    display:none;
+}
+#md{
+    display:none;
+}
+#lg{
+    display:none;
+}
+#xl{
+    display:none;
+}
+#sm{
+    display:none;
+}
+/*sm*/
+@media (min-width:576px){
+    body{
+        background-color: #3c455d;
+        color:white;
+    }
+
+    #xxl{
+        display: none;
+    }
+    #xsm{
+        display: none;
+    }
+    #sm{
+        display:none;
+    }
+    #md{
+        display:none;
+    }
+    #lg{
+        display:none;
+    }
+    #xl{
+        display:none;
+    }
+    #sm{
+        display:block;
+    }
+}
+/*md*/
+@media (min-width:798px){
+    body{
+        background-color: #A2ABAB;
+        color:black;
+    }
+    #xxl{
+        display: none;
+    }
+    #xsm{
+        display: none;
+    }
+    #sm{
+        display:none;
+    }
+    #md{
+        display:block;
+    }
+    #lg{
+        display:none;
+    }
+    #xl{
+        display:none;
+    }
+    #sm{
+        display:none;
+    }
+}
+/*lg*/
+@media (min-width:992px){
+    body{
+        background-color: #B4C4AE;
+    }
+    #xxl{
+        display: none;
+    }
+    #xsm{
+        display: none;
+    }
+    #sm{
+        display:none;
+    }
+    #md{
+        display:none;
+    }
+    #lg{
+        display:block;
+    }
+    #xl{
+        display:none;
+    }
+    #sm{
+        display:none;
+    }
+}
+/*xl*/
+@media (min-width:1200px){
+    body{
+        background-color: #8fb9c6;
+    }
+    #xxl{
+        display: none;
+    }
+    #xsm{
+        display: none;
+    }
+    #sm{
+        display:none;
+    }
+    #md{
+        display:none;
+    }
+    #lg{
+        display:none;
+    }
+    #xl{
+        display:block;
+    }
+    #sm{
+        display:none;
+    }
+}
+/*xxl*/
+@media (min-width:1400px){
+    body{
+        background-color: #1D1128;
+        color:white;
+    }
+    #xxl{
+        display: block;
+    }
+    #xsm{
+        display: none;
+    }
+    #sm{
+        display:none;
+    }
+    #md{
+        display:none;
+    }
+    #lg{
+        display:none;
+    }
+    #xl{
+        display:none;
+    }
+    #sm{
+        display:none;
+    }
+}
+
+
+
